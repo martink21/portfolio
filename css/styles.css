@@ -3,9 +3,9 @@
 }
 
 :root {
-    --color-links: #357b70;
+    --color-links: black;
     --color-links-visited: #002292;
-    --color-links-hover: #FF0000;
+    --color-links-hover: black;
     --color-links-active: #489c79;
     --button-bg-color: #357b70;
     --button-text-color: #FDF4DC;
@@ -13,38 +13,48 @@
     --button-color-secondary: #e0b354;
     --nav-bg-color: #1274d9;
     --grid-bg-color: #D3D3D3;
-  }
+}
+
 body {
     font-family: 'lato', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
 }
+
 .about {
     max-width: 700px;
     margin: 0 auto;
 }
+
 .about-item {
     display: flex;
     justify-content: center;
     text-align: center;
 }
+
 .contact {
     max-width: 700px;
     margin: 0 auto;
 }
+
 .contact-item {
     display: flex;
     justify-content: center;
     text-align: center;
+    color: black;
+    margin-top: 40px;
 }
+
 .page-title {
     text-align: center;
 }
+
 .contact-form {
     flex: 1 1 500px;
     max-width: 500px;
 }
+
 .contact-form__item {
     display: flex;
     flex-direction: column;
@@ -52,63 +62,84 @@ body {
     margin-top: 10px;
     text-align: left;
 }
+
+.contact-me {
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.contact-me:hover {
+    color: white;
+    background-color: black;
+}
+
 h1 {
     font-size: 45px;
     font-weight: 700;
 }
+
 a {
     color: var(--color-links);
+    text-decoration: none;
 }
+
 a:visited {
-    color: var(--color-links-visited);
+    color: black;
+    text-decoration: none;
 }
+
 a:hover {
     text-decoration: none;
     color: var(--color-links-hover);
 }
+
 a:focus {
     text-decoration: none;
     color: var(--color-links-hover);
 }
+
 a:active {
-    color: var(--color-links-active );
+    color: var(--color-links-active);
 }
+
 button {
-    width:75px;
-    border: none;
-    font-family: inherit;
-    background-color: var(--button-bg-color);
-    color: var(--button-text-color);
+    width: 75px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
     text-decoration: none;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid var(--border-color);
+    padding: 5px;
     margin: 5px 0 0 3px;
     transition: 0.2s opacity;
 }
+
 button:hover {
     cursor: pointer;
-    opacity: 0.8;
+    color: white;
+    background-color: black;
 }
+
 button:focus {
     cursor: pointer;
     opacity: 0.8;
 }
+
 .button__secondary {
-    background-color: var(--button-color-secondary);
-    color: var(--button-text-color);
+    background-color: white;
+    color: black;
     transition: 0.2s opacity;
 }
 
-.contact-form__item:last-child{
-    display:flex;
+.contact-form__item:last-child {
+    display: flex;
     flex-direction: row;
-    justify-content: flex-end;   
+    justify-content: flex-end;
 }
 
-.about-item__linkedin{
-margin: 20px auto;
-text-align: center;
+.about-item__linkedin {
+    margin: 20px auto;
+    text-align: center;
 }
 
 table {
@@ -116,94 +147,124 @@ table {
     border-collapse: collapse;
     text-align: center;
 }
+
 th {
     border: 1px solid var(--border-color);
     border-collapse: collapse;
     text-align: center;
 }
+
 td {
     border: 1px solid var(--border-color);
     border-collapse: collapse;
     text-align: center;
 }
+
 .page-footer {
-    clear: both;
-    display: flex;
-    flex-direction: column;
     text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 50px;
 }
+
 .profile__portrait {
     float: left;
-    width: 250px;
+    width: 200px;
     margin-right: 40px;
+    margin-left: 300px;
     border-radius: 50%;
 }
+
 .profile {
-    max-width: 700px;
     margin: 0 auto;
+    margin-bottom: 200px;
+    margin-top: 100px;
 }
+
 .page-header {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     padding: 20px;
 }
+
 .page-header__item {
     flex: 0 1 200px;
 }
+
 .page-header__item:last-child {
     flex-grow: 1;
     text-align: right;
 }
+
 .navigation-list {
     list-style-type: none;
 }
+
 .navigation-list li {
     display: inline-block;
     margin-left: 15px;
 }
+
 .navigation-list li .navigation-list__item--active {
-    color: var(--button-text-color);
-    background-color: var(--nav-bg-color);
-    border-bottom: 1px solid var(--border-color);
+    color: black;
+    background-color: white;
+    border: 2px solid var(--border-color);
     padding: 2px 6px;
-    border-radius: 4px;
     text-decoration: none;
     padding: 10px;
 }
-.navigation-list__item{
+
+.navigation-list__item {
     text-decoration: none;
+    color: black;
 }
-.navigation-list__item:hover{
-    color: var(--color-links-visited);
+
+.navigation-list__item:hover {
+    color: black;
 }
+
 .page-footer__item {
     height: 30px;
     width: 30px;
 }
+
 .grid__item {
     display: inline-block;
     width: 33%;
-    background-color: #d3d3d3;
+    background-color: white;
     width: auto;
     min-height: auto;
     margin: 0;
     padding: 15px;
+    border: 2px solid black;
 }
+
 .grid__item:last-child {
     grid-column: 1;
     grid-row: 0.3333333333;
 }
+
+.button {
+    border: 2px solid black;
+    padding: 4px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
 @keyframes color-change {
     0% {
         fill: #edc655;
-   }
+    }
     50% {
         fill: #fcffad;
-   }
+    }
     100% {
         fill: #f76414;
-   }
+    }
 }
 
 /* ANIMATION */
@@ -211,11 +272,12 @@ td {
 @keyframes cloud-move-reverse {
     from {
         transform: translate(446px, 48px);
-   }
+    }
     to {
         transform: translate(100px, 48px);
-   }
+    }
 }
+
 .sun {
     animation-duration: 4s;
     animation-name: color-change;
@@ -223,6 +285,7 @@ td {
     animation-direction: alternate;
     animation-timing-function: linear;
 }
+
 .cloud-front {
     animation: 30s cloud-move infinite alternate linear;
     animation-duration: 30s;
@@ -231,6 +294,7 @@ td {
     animation-direction: alternate;
     animation-timing-function: linear;
 }
+
 .cloud-back {
     animation: 34s cloud-move-reverse infinite alternate linear;
 }
@@ -267,7 +331,7 @@ td {
         margin: 20px;
     }
     .grid__item {
-        background-color: lightgray;
+        background-color: white;
         width: auto;
         min-height: auto;
         margin: 0;
