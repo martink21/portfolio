@@ -486,10 +486,10 @@ ul {
 	 animation: 1s anim-lightspeed-in ease forwards;
 }
  .chart--prod .chart__title {
-	 animation-delay: 3.3s;
+	 animation-delay: 3s;
 }
  .chart--design .chart__title {
-	 animation-delay: 5.4s;
+	 animation-delay: 5s;
 }
  .chart--horiz {
 	 overflow: hidden;
@@ -535,49 +535,49 @@ ul {
 	 animation-delay: 0.7s;
 }
 .chart--prod .chart__bar:nth-of-type(6) {
-    animation-delay: 5s;
+    animation-delay: 4.5s;
 }
 .chart--prod .chart__bar:nth-of-type(5) {
-    animation-delay: 4.8s;
+    animation-delay: 4.3s;
 }
 .chart--prod .chart__bar:nth-of-type(4) {
-    animation-delay: 4.6s;
+    animation-delay: 4.1s;
 }
 .chart--prod .chart__bar:nth-of-type(3) {
-    animation-delay: 4.4s;
+    animation-delay: 3.9s;
 }
  .chart--prod .chart__bar:nth-of-type(2) {
-	 animation-delay: 4.2s;
+	 animation-delay: 3.7s;
 }
  .chart--prod .chart__bar:nth-of-type(1) {
-	 animation-delay: 4s;
+	 animation-delay: 3.5s;
 }
 .chart--design .chart__bar:nth-of-type(9) {
-    animation-delay: 7.3s;
-}
-.chart--design .chart__bar:nth-of-type(8) {
     animation-delay: 7.1s;
 }
-.chart--design .chart__bar:nth-of-type(7) {
+.chart--design .chart__bar:nth-of-type(8) {
     animation-delay: 6.9s;
 }
-.chart--design .chart__bar:nth-of-type(6) {
+.chart--design .chart__bar:nth-of-type(7) {
     animation-delay: 6.7s;
 }
-.chart--design .chart__bar:nth-of-type(5) {
+.chart--design .chart__bar:nth-of-type(6) {
     animation-delay: 6.5s;
 }
- .chart--design .chart__bar:nth-of-type(4) {
-	 animation-delay: 6.3s;
+.chart--design .chart__bar:nth-of-type(5) {
+    animation-delay: 6.3s;
 }
- .chart--design .chart__bar:nth-of-type(3) {
+ .chart--design .chart__bar:nth-of-type(4) {
 	 animation-delay: 6.1s;
 }
- .chart--design .chart__bar:nth-of-type(2) {
+ .chart--design .chart__bar:nth-of-type(3) {
 	 animation-delay: 5.9s;
 }
- .chart--design .chart__bar:nth-of-type(1) {
+ .chart--design .chart__bar:nth-of-type(2) {
 	 animation-delay: 5.7s;
+}
+ .chart--design .chart__bar:nth-of-type(1) {
+	 animation-delay: 5.5s;
 }
  .chart__label {
 	 padding-left: 10px;
