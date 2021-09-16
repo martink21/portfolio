@@ -214,13 +214,13 @@ td {
     margin-left: 15px;
 }
 
-.navigation-list li .navigation-list__item--active {
+.navigation-list__item--active {
     color: black;
     background-color: white;
     border: 2px solid var(--border-color);
-    padding: 2px 6px;
+    padding: 8px;
     text-decoration: none;
-    padding: 10px;
+  
 }
 
 .navigation-list__item {
@@ -358,6 +358,9 @@ td {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .navigation-list__item--active{
+        padding: 2px;
     }
     .page-header, .page-footer, .profile {
         margin: 0 auto;
