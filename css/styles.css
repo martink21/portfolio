@@ -196,7 +196,7 @@ td {
     font-weight: 600;       
 }
 .resume:visited{
-    color:white;
+    color:white !important;
     text-decoration: none;
 }
 .resume:hover{
@@ -204,6 +204,9 @@ td {
     color: black;
     border: 2px solid black;
     transition-duration: 80ms;
+}
+.resume:hover:visited{
+    color:black !important;
 }
 .profile {
     margin: 0 auto;
