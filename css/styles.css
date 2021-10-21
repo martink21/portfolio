@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans); */
 
 * {
     box-sizing: border-box;
@@ -18,7 +18,7 @@
 }
 
 body {
-    font-family: 'lato', sans-serif;
+    font-family: 'century-gothic', 'sans-serif';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
@@ -115,7 +115,7 @@ a:active {
 }
 
 button {
-    width: 75px;
+    width: 80px;
     border: 2px solid black;
     background-color: white;
     color: black;
@@ -123,6 +123,7 @@ button {
     padding: 5px;
     margin: 5px 0 0 3px;
     transition: 0.2s opacity;
+
 }
 
 button:hover {
@@ -139,6 +140,20 @@ button:focus {
 .button__secondary {
     background-color: white;
     color: black;
+    transition: 0.2s opacity;
+}
+
+.work-button {
+    border: 2px solid black;
+    padding: 4px;
+    display: block;
+    margin-top: 7px;
+    text-align: center;    
+}
+.work-button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
     transition: 0.2s opacity;
 }
 
@@ -276,11 +291,6 @@ td {
 .grid__item:last-child {
     grid-column: 1;
     grid-row: 0.3333333333;
-}
-
-.button {
-    border: 2px solid black;
-    padding: 4px;
 }
 
 .button:hover {
@@ -442,7 +452,7 @@ td {
 
  body {
 	 margin: 20px 0 40px;
-	 font-family: "Open Sans", sans-serif;
+	 font-family: 'century gothic', sans-serif;
 	 color: #282828;
 }
 
