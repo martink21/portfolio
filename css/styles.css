@@ -24,10 +24,21 @@ body {
     line-height: 1.6;
 }
 
-.logo{
-    max-height: 500px;
-    max-width: 175px;
+.logo {
+    display:flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    color:black; 
+    align-items: center;   
 }
+
+.logo-pic{
+    max-width: 50px;
+    margin-left: 3px;
+    margin-right: 1px;
+}
+
 .about {
     max-width: 700px;
     margin: 0 auto;
@@ -453,7 +464,7 @@ td {
  body {
 	 margin: 20px 0 40px;
 	 font-family: 'century gothic', sans-serif;
-	 color: #282828;
+	 color: black;
 }
 
 ul {
