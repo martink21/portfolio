@@ -225,6 +225,12 @@ td {
     flex: 0 1 200px;
 }
 
+.page-header__item:first-child {
+    flex: 0 1 200px;
+    max-width: 80px;
+    max-height: 80px;
+}
+
 .page-header__item:last-child {
     flex-grow: 1;
     text-align: right;
@@ -237,6 +243,7 @@ td {
 .navigation-list li {
     display: inline-block;
     margin-left: 15px;
+    margin-top: 8px;
 }
 
 .navigation-list__item--active {
