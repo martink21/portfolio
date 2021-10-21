@@ -72,6 +72,10 @@ input, textarea{
     text-align: center;
 }
 
+h2 {
+    color: rgb(34, 117, 185);
+}
+
 .contact-form {
     flex: 1 1 500px;
     max-width: 500px;
@@ -217,7 +221,7 @@ td {
 }
 .resume {
     color: white;
-    background-color: black;
+    background-color: rgb(34, 117, 185);
     padding:10px;
     font-weight: 600;       
 }
